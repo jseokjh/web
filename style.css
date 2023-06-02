@@ -14,6 +14,8 @@
     align-items: center;
     background: #FFFFFF;
   }
+
+
   .card {
     width: var(--card-width);
     height: var(--card-height);
@@ -86,10 +88,12 @@
     height: 120px;
   }
   .title {
-    width: 100%;
+    width: 300%;
+    opacity: 0;
     transition: transform 0.5s;
   }
   .card:hover .title {
+    opacity: 1;
     transform: translate3d(0%, -50px, 100px);
   }
   
